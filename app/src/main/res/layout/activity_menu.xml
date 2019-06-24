@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shj"
+    tools:context="com.laraine.kumedorapp.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:color="#66FF0000"
+        android:alpha="0.25"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btnNoodlePlatter"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="NOODLE PLATTER"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnPork"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="PORK"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnRice"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="RICE"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnRiceToppings"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="RICE TOPPINGS"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+        android:id="@+id/btnSalad"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+        android:background="#666563"
+        android:text="SALAD"
+        android:textColor="@color/Orange"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        />
+
+        <Button
+            android:id="@+id/btnSeafood"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="SEAFOOD"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnShakes"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="SHAKES"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnSoup"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="SOUP"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnSushi"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="SUSHI"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnVegetables"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="VEGETABLES"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnApp"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="APPETIZER"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnBeef"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="BEEF"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnBeverages"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="BEVERAGES"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnBilao"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="BILAO PACKAGE"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnChicken"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="CHICKEN"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+        android:id="@+id/btnDessert"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+        android:background="#666563"
+        android:text="DESSERT"
+        android:textColor="@color/Orange"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        />
+
+        <Button
+            android:id="@+id/btnFamilyViand"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="FAMILY VIAND"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnFish"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="FISH"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnMenuMeal"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="MENU MEAL"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnNoodleSoup"
+            android:layout_width="140dp"
+            android:layout_height="23dp"
+            android:textSize="15sp"
+            android:background="#666563"
+            android:text="NOODLE SOUP"
+            android:textColor="@color/Orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

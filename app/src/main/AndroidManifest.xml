@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.laraine.kumedorapp">
+    <supports-screens
+        android:normalScreens="true"
+        android:largeScreens="true"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:screenOrientation="landscape"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MenuPage"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".AppetizerClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".BeefClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".BilaoClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".BeveragesClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".ChickenClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".DessertClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+        android:name=".FamilyViandClass"
+        android:screenOrientation="landscape">
+
+    </activity>
+
+        <activity
+            android:name=".FishClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".MenuMealClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".NoodleSoupClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".NoodlePlatterClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".PorkClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".RiceClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".RiceToppingsClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".SaladClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".SeafoodClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".ShakesClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".SoupClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".SushiClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name=".VegetablesClass"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+    </application>
+
+</manifest>
